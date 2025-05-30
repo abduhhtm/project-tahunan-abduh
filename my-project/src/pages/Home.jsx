@@ -16,7 +16,7 @@ export default function Dashboard() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Selamat Datang di Web Bedil!
+          Welcome to website Abduh
         </motion.h1>
 
         {/* Intro */}

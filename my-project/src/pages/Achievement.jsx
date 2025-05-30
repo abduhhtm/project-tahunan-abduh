@@ -39,8 +39,8 @@ export default function Achievement() {
 
   return (
     <MainLayout>
-      <div className="p-6 max-w-6xl mx-auto">
-        <h1 className="text-2xl font-bold mb-4 text-blue-800">Daftar Proyek Tahunan</h1>
+      <div className="p-6 max-w-6xl mx-auto bg-[#355C7D]">
+        <h1 className="text-2xl font-bold mb-4 text-[#FFF1DB]">Daftar Proyek Tahunan</h1>
 
         <div className="flex flex-col md:flex-row gap-4 mb-6">
           <input
@@ -69,8 +69,8 @@ export default function Achievement() {
               onChange={() => setFilterProgress(!filterProgress)}
               whileTap={{ scale: 0.95 }}
             />
-            <CheckCircle className="text-green-600" size={18} />
-            <span className="text-sm">Progress ≥ 90%</span>
+            <CheckCircle className="text-[#FFF1DB]" size={18} />
+            <span className="text-sm text-[#FFF1DB]">Progress ≥ 90%</span>
           </label>
           <label className="flex items-center gap-2">
             <motion.input
@@ -79,8 +79,8 @@ export default function Achievement() {
               onChange={() => setFilterDeadline(!filterDeadline)}
               whileTap={{ scale: 0.95 }}
             />
-            <Timer className="text-orange-600" size={18} />
-            <span className="text-sm">Deadline 30 hari</span>
+            <Timer className="text-[#FFF1DB]" size={18} />
+            <span className="text-sm text-[#FFF1DB]">Deadline 30 hari</span>
           </label>
         </div>
 
@@ -134,7 +134,7 @@ export default function Achievement() {
 
           {filteredProjects.length === 0 && (
             <motion.p
-              className="text-gray-500 col-span-full"
+              className="text-[#FFF1DB] col-span-full"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
             >

@@ -132,7 +132,7 @@ export default function DetailPage() {
 
   if (!project || !detail) {
     return (
-      <div className="p-6 text-center text-red-500">
+      <div className="p-6 text-center text-[#FFF1DB]">
         Proyek tidak ditemukan.
       </div>
     );

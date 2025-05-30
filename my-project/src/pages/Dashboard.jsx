@@ -8,20 +8,20 @@ export default function Dashboard() {
 
   return (
     <MainLayout>
-      <main className="p-6 max-w-6xl mx-auto">
+      <main className="p-6 max-w-6xl mx-auto bg-[#355C7D]">
         {/* Header */}
         <motion.h1
-          className="text-4xl font-bold text-blue-800 text-center mb-6"
+          className="text-4xl font-bold text-[#FFF1DB] text-center mb-6"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Selamat Datang di Web Bedil!
+          Welcom to website Abduh!
         </motion.h1>
 
         {/* Intro */}
         <motion.p
-          className="text-gray-700 text-lg text-center max-w-3xl mx-auto leading-relaxed mb-6"
+          className="text-[#FFF1DB] text-lg text-center max-w-3xl mx-auto leading-relaxed mb-6"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
@@ -41,7 +41,7 @@ export default function Dashboard() {
 
         {/* Fitur */}
         <motion.div
-          className="grid md:grid-cols-2 gap-6 bg-white p-6 rounded-xl shadow-md mb-8"
+          className="grid md:grid-cols-2 gap-6 bg-[#FFF1DB] p-6 rounded-xl shadow-md mb-8"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
@@ -70,7 +70,7 @@ export default function Dashboard() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.6 }}
         >
-          <p className="text-gray-700 text-lg mb-4">Yuk mulai eksplorasi daftar proyek sekarang!</p>
+          <p className="text-[#FFF1DB] text-lg mb-4">Yuk mulai eksplorasi daftar proyek sekarang!</p>
           <button
             onClick={() => navigate("/achievement")}
             className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-medium inline-flex items-center gap-2 transition"
