@@ -43,7 +43,7 @@ export default function Header() {
                 ${
                   location.pathname === item.path
                     ? "text-[#FFF1DB] font-semibold border-b-2 border-[#FFF1DB] "
-                    : "text-[#FFF1DB] hover:bg-[#FFF1DB]"
+                    : "text-[#FFF1DB] hover:text-lg"
                 }`}
             >
               {item.icon}

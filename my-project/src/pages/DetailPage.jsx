@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 export const dummyDetails = {
   1: {
     description:
-      "Program pelatihan mingguan untuk meningkatkan kemampuan dasar dan lanjutan.",
+      "Program pelatihan mingguan untuk meningkatkan kemampuan dasar dan lanjutan dalam bela diri.",
     image: "https://images.unsplash.com/photo-1514050566906-8d077bae7046?q=80&w=3873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     timeline: [...Array(12)].map((_, i) => ({
       month: new Date(0, i).toLocaleString("id-ID", { month: "long" }),
-      status: i < 2 ? "Selesai" : i === 2 ? "Sedang Berlangsung" : "Belum Dimulai",
+      status: i < 4 ? "Selesai" : i === 4 ? "Sedang Berlangsung" : "Belum Dimulai",
     })),
     notes: [
       "Latihan intensif menjelang ujian sabuk.",
@@ -20,10 +20,10 @@ export const dummyDetails = {
   2: {
     description:
       "Proyek kelompok mata pelajaran IT mengenai pembuatan aplikasi web sederhana.",
-    image: "https://ccitraining.edu/wp-content/uploads/2023/12/Information-Technology.jpg",
+    src: "",
     timeline: [...Array(12)].map((_, i) => ({
       month: new Date(0, i).toLocaleString("id-ID", { month: "long" }),
-      status: i < 3 ? "Selesai" : i < 5 ? "Sedang Berlangsung" : "Belum Dimulai",
+      status: i < 4 ? "Selesai" : i < 5 ? "Sedang Berlangsung" : "Belum Dimulai",
     })),
     notes: [
       "Beberapa siswa sudah berhasil membuat prototipe.",
@@ -49,7 +49,7 @@ export const dummyDetails = {
     image: "https://images.unsplash.com/photo-1621788143296-7991fdde4161?q=80&w=2046&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     timeline: [...Array(12)].map((_, i) => ({
       month: new Date(0, i).toLocaleString("id-ID", { month: "long" }),
-      status: i < 3 ? "Selesai" : i === 3 ? "Sedang Berlangsung" : "Belum Dimulai",
+      status: i < 4 ? "Selesai" : i === 4 ? "Sedang Berlangsung" : "Belum Dimulai",
     })),
     notes: [
       "Kegiatan membaca teks pendek dan percakapan harian.",
@@ -62,7 +62,7 @@ export const dummyDetails = {
     image: "https://images.unsplash.com/photo-1671609888498-c22bf328037b?q=80&w=3946&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     timeline: [...Array(12)].map((_, i) => ({
       month: new Date(0, i).toLocaleString("id-ID", { month: "long" }),
-      status: i < 4 ? "Selesai" : i < 6 ? "Sedang Berlangsung" : "Belum Dimulai",
+      status: i < 4 ? "Selesai" : i < 5 ? "Sedang Berlangsung" : "Belum Dimulai",
     })),
     notes: [
       "Latihan langsung pelafalan dengan bimbingan guru.",
@@ -75,7 +75,7 @@ export const dummyDetails = {
     image: "https://images.unsplash.com/photo-1624862762217-e282e40a51ec?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     timeline: [...Array(12)].map((_, i) => ({
       month: new Date(0, i).toLocaleString("id-ID", { month: "long" }),
-      status: i < 5 ? "Selesai" : i === 5 ? "Sedang Berlangsung" : "Belum Dimulai",
+      status: i < 4 ? "Selesai" : i === 4 ? "Sedang Berlangsung" : "Belum Dimulai",
     })),
     notes: [
       "Setoran hafalan dilakukan dua kali seminggu.",
@@ -88,7 +88,7 @@ export const dummyDetails = {
     image: "https://source.unsplash.com/400x300/?swimming",
     timeline: [...Array(12)].map((_, i) => ({
       month: new Date(0, i).toLocaleString("id-ID", { month: "long" }),
-      status: i < 6 ? "Selesai" : i === 6 ? "Sedang Berlangsung" : "Belum Dimulai",
+      status: i < 4 ? "Selesai" : i === 4 ? "Sedang Berlangsung" : "Belum Dimulai",
     })),
     notes: [
       "Materi renang gaya bebas dan dada sudah dikuasai.",
@@ -101,7 +101,7 @@ export const dummyDetails = {
     image: "https://source.unsplash.com/400x300/?english,language",
     timeline: [...Array(12)].map((_, i) => ({
       month: new Date(0, i).toLocaleString("id-ID", { month: "long" }),
-      status: i < 4 ? "Selesai" : i < 6 ? "Sedang Berlangsung" : "Belum Dimulai",
+      status: i < 4 ? "Selesai" : i < 5 ? "Sedang Berlangsung" : "Belum Dimulai",
     })),
     notes: [
       "Siswa aktif dalam percakapan kelompok dan roleplay.",
@@ -114,7 +114,7 @@ export const dummyDetails = {
     image: "https://source.unsplash.com/400x300/?java,indonesia,culture",
     timeline: [...Array(12)].map((_, i) => ({
       month: new Date(0, i).toLocaleString("id-ID", { month: "long" }),
-      status: i < 3 ? "Selesai" : i < 5 ? "Sedang Berlangsung" : "Belum Dimulai",
+      status: i < 4 ? "Selesai" : i < 5 ? "Sedang Berlangsung" : "Belum Dimulai",
     })),
     notes: [
       "Siswa mulai mengenali dan menulis aksara Jawa dasar.",

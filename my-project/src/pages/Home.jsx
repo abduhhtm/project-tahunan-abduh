@@ -26,12 +26,13 @@ export default function Dashboard() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
-          Aplikasi ini dibuat untuk membantu siswa dan guru dalam memantau progres proyek tahunan secara efektif dan menyenangkan. Ayo kelola proyekmu sekarang dengan lebih visual dan efisien!
+          Website ini dibuat untuk memudahkan antara sesama santri dan guru untuk mengenal dan mengetahui latar belakang orang tersebut!
+
         </motion.p>
 
-        {/* Ilustrasi */}
+        
         <motion.img
-          src="https://i0.wp.com/jogjahost.co.id/blog/wp-content/uploads/2021/06/image-53-1024x506.png" // ganti dengan ilustrasi kamu
+          src="gambar.jpg" // ganti dengan ilustrasi kamu
           alt="Ilustrasi Proyek"
           className="w-full max-w-md mx-auto mb-10"
           initial={{ opacity: 0 }}
